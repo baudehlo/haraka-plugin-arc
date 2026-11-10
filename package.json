@@ -1,0 +1,41 @@
+{
+  "name": "haraka-plugin-arc",
+  "version": "1.0.0",
+  "description": "ARC (Authenticated Received Chain) sealing for Haraka",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "config",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check . --write",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baudehlo/haraka-plugin-arc.git"
+  },
+  "keywords": [
+    "haraka",
+    "haraka-plugin",
+    "arc",
+    "email"
+  ],
+  "author": "Matt Sergeant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baudehlo/haraka-plugin-arc/issues"
+  },
+  "homepage": "https://github.com/baudehlo/haraka-plugin-arc#readme",
+  "engines": {
+    "node": ">=20.18.1"
+  },
+  "dependencies": {
+    "mailauth": "8.0.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15"
+  }
+}
